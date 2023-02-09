@@ -21,7 +21,6 @@ public class Ex1 {
         for (int i = 0; i < length/2 ; i++) {
             if (checkedString.charAt(i) != checkedString.charAt(length-1-i)){
                 return false;
-
             }
         }
         return true;
